@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="et">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <title>
+   Ala panemise &otilde;petus | K&auml;nnukas
+  </title>
+  <meta content="K&auml;nnukase Minecrafti serveri ala kaitsmise &otilde;petus" name="description"/>
+  <style>
+   :root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#0d1117;color:#e6edf3;font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}.markdown-body{max-width:1060px;margin:0 auto;padding:32px 24px 64px}h1,h2{font-weight:600;line-height:1.25;padding-bottom:.3em;border-bottom:1px solid #30363d}h1{font-size:2em;margin:0 0 16px}h2{font-size:1.5em;margin:26px 0 16px}p{margin:0 0 16px}strong{font-weight:600}code{font:85% ui-monospace,SFMono-Regular,SFMono,Consolas,"Liberation Mono",monospace;background:#6e768166;border-radius:6px;padding:.2em .4em;color:#e6edf3}.codeblock{display:flex;align-items:center;justify-content:space-between;gap:15px;background:#151b23;padding:16px;margin:16px 0;border-radius:6px}.codeblock code{background:transparent;padding:0;white-space:nowrap}.copy{background:none;border:0;color:#9198a1;cursor:pointer;font-size:18px;padding:3px 6px}.copy:hover{color:#e6edf3}table{border-spacing:0;border-collapse:collapse;display:block;width:max-content;max-width:100%;overflow:auto;margin:0 0 16px}th,td{padding:6px 13px;border:1px solid #3d444d}tr:nth-child(even){background:#151b23}th{font-weight:600}td:last-child{white-space:nowrap}img{max-width:100%;height:auto;border-radius:6px;display:block;margin:14px 0 18px}.intro{margin-bottom:24px}@media(max-width:600px){.markdown-body{padding:20px 16px 42px}h1{font-size:1.7em}h2{font-size:1.3em}table{font-size:13px}th,td{padding:6px 8px}}
+  </style>
+ </head>
+ <body>
+  <main class="markdown-body">
+   <h1>
+    Kuidas oma ala kaitsta
+   </h1>
+   <p class="intro">
+    <code>
+     /claim
+    </code>
+    kaitseb sinu ehitist ja asju teiste m&auml;ngijate eest.
+   </p>
+   <h2>
+    1. Vali ala kaks nurka
+   </h2>
+   <p>
+    Mine oma tulevase ala &uuml;hte nurka ja kirjuta:
+   </p>
+   <div class="codeblock">
+    <code>
+     /claim setpos
+    </code>
+    <button aria-label="Kopeeri k&auml;sk" class="copy" data-copy="/claim setpos" title="Kopeeri k&auml;sk">
+     ▢
+    </button>
+   </div>
+   <p>
+    Mine diagonaalis vastasnurka ning kirjuta sama k&auml;sk uuesti. Ala v&otilde;ib olla k&otilde;ige rohkem
+    <strong>
+     350 &times; 350 plokki
+    </strong>
+    . Vali m&otilde;lemad nurgad viie minuti jooksul.
+   </p>
+   <img alt="Minecrafti maastikul t&auml;histatud esimene ja teine nurk" src="nurgad.png"/>
+   <h2>
+    2. Loo ala
+   </h2>
+   <p>
+    Anna alale nimi, n&auml;iteks:
+   </p>
+   <div class="codeblock">
+    <code>
+     /claim create kodu
+    </code>
+    <button aria-label="Kopeeri k&auml;sk" class="copy" data-copy="/claim create kodu" title="Kopeeri k&auml;sk">
+     ▢
+    </button>
+   </div>
+   <p>
+    Nimes ei tohi olla t&uuml;hikuid. Kui valitud ala kattub kellegi teise kaitstud alaga, vali uued nurgad.
+   </p>
+   <p>
+    M&auml;ngijal saab olla kuni
+    <strong>
+     5 ala maailma kohta
+    </strong>
+    . Esimene ala maksab
+    <strong>
+     3 000 &euro;
+    </strong>
+    ja iga j&auml;rgmine on
+    <strong>
+     1,5 korda kallim
+    </strong>
+    , kui eelmised alad on alles:
+   </p>
+   <table>
+    <thead>
+     <tr>
+      <th>
+       Ala
+      </th>
+      <th>
+       Hind
+      </th>
+     </tr>
+    </thead>
+    <tbody>
+     <tr>
+      <td>
+       1.
+      </td>
+      <td>
+       3 000 &euro;
+      </td>
+     </tr>
+     <tr>
+      <td>
+       2.
+      </td>
+      <td>
+       4 500 &euro;
+      </td>
+     </tr>
+     <tr>
+      <td>
+       3.
+      </td>
+      <td>
+       6 750 &euro;
+      </td>
+     </tr>
+     <tr>
+      <td>
+       4.
+      </td>
+      <td>
+       10 125 &euro;
+      </td>
+     </tr>
+     <tr>
+      <td>
+       5.
+      </td>
+      <td>
+       15 187,50 &euro;
+      </td>
+     </tr>
+    </tbody>
+   </table>
+   <h2>
+    3. Vaata ja halda oma ala
+   </h2>
+   <table>
+    <thead>
+     <tr>
+      <th>
+       Soov
+      </th>
+      <th>
+       K&auml;sk
+      </th>
+     </tr>
+    </thead>
+    <tbody>
+     <tr>
+      <td>
+       Vaata ala asukohta
+      </td>
+      <td>
+       <code>
+        /claim show kodu
+       </code>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Teleporteeru alale
+      </td>
+      <td>
+       <code>
+        /claim tp kodu
+       </code>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Kutsu s&otilde;ber alale
+      </td>
+      <td>
+       <code>
+        /claim friend invite kodu M&auml;ngijaNimi
+       </code>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Eemalda s&otilde;ber alalt
+      </td>
+      <td>
+       <code>
+        /claim friend uninvite kodu M&auml;ngijaNimi
+       </code>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Eemalda ala
+      </td>
+      <td>
+       <code>
+        /claim remove kodu
+       </code>
+      </td>
+     </tr>
+    </tbody>
+   </table>
+   <p>
+    <code>
+     /claim show
+    </code>
+    n&auml;itab ala koordinaate ja pakub klikitavat teleportimist. Teleportimine maksab
+    <strong>
+     100 &euro;
+    </strong>
+    . Kui alale pole eraldi teleportimiskohta m&auml;&auml;ratud, v&otilde;ib see viia ka maa alla.
+   </p>
+   <img alt="K&auml;nnukase chatis kuvatud ala algus- ja l&otilde;ppkoordinaadid" src="claim-show.png"/>
+   <p>
+    Kui k&auml;sk ununeb, kirjuta
+    <code>
+     /claim
+    </code>
+    .
+   </p>
+  </main>
+  <script>
+   document.querySelectorAll('[data-copy]').forEach(b=>b.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(b.dataset.copy);b.textContent='✓';setTimeout(()=>b.textContent='▢',1400)}catch(e){b.textContent='!'}}));
+  </script>
+ </body>
+</html>
