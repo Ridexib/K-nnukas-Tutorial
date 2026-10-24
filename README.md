@@ -1,6 +1,6 @@
 # Kuidas oma ala kaitsta
 
-`/claim` kaitseb sinu ehitist ja asju teiste mängijate eest. Ala valimiseks ei ole erilist tööriista vaja.
+`/claim` kaitseb sinu ehitist ja asju teiste mängijate eest.
 
 ## 1. Vali ala kaks nurka
 
@@ -19,12 +19,12 @@ Mine diagonaalis vastasnurka ning kirjuta sama käsk uuesti. Ala võib olla kõi
 Anna alale nimi, näiteks:
 
 ```text
-/claim create minu_kodu
+/claim create kodu
 ```
 
 Nimes ei tohi olla tühikuid. Kui valitud ala kattub kellegi teise kaitstud alaga, vali uued nurgad.
 
-Tavalisel mängijal saab olla kuni **5 ala maailma kohta**. Esimene ala maksab **3 000 €** ja iga järgmine on 1,5 korda kallim, kui eelmised alad on alles:
+Mängijal saab olla kuni **5 ala maailma kohta**. Esimene ala maksab **3 000 €** ja iga järgmine on 1,5 korda kallim, kui eelmised alad on alles:
 
 | Ala | Hind |
 | --- | ---: |
@@ -34,7 +34,6 @@ Tavalisel mängijal saab olla kuni **5 ala maailma kohta**. Esimene ala maksab *
 | 4. | 10 125 € |
 | 5. | 15 187,50 € |
 
-**Sponsor+** mängijal on kuni 10 ala maailma kohta ning alade loomine on tasuta.
 
 ## 3. Vaata ja halda oma ala
 
@@ -50,4 +49,4 @@ Tavalisel mängijal saab olla kuni **5 ala maailma kohta**. Esimene ala maksab *
 
 > **Pildi koht 2:** ekraanipilt pärast käsku `/claim show minu_kodu`. Näita vestluses ala koordinaate ja klikitavat teleportimisvõimalust ning võimalusel kaitstud ala piire mängumaailmas.
 
-Kui käsk ununeb, kirjuta `/claim help`.
+Kui käsk ununeb, kirjuta `/claim`.
